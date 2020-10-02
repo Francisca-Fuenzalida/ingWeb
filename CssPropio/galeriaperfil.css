@@ -1,0 +1,61 @@
+#galeriaperfil .col-lg-4{
+
+	margin: 0 !important;
+	padding: 20px;
+
+}
+
+
+#galeriaperfil img{
+
+	width: 100%;
+	height: 300px;
+}
+
+#galeriaperfil img:hover{
+	border: 5px solid #a3d2ca;
+}
+
+body{
+
+	background-color: #a3d2ca;
+}
+
+.footer{
+
+	bottom: 0;
+	width: 100%;
+	position: sticky-top;
+}
+
+.header{
+
+	text-align: center;
+	height: 300px;
+    padding: 12px;
+    background-image: url(../imagenes/1.jpeg);
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.socials{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.socials li{
+   	display: inline-block;
+    margin: 5px;
+}
+
+.a{
+    text-decoration: none;
+    color: #fff;
+}
+
+

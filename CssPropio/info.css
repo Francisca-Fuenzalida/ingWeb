@@ -1,0 +1,48 @@
+body{
+
+	background-color: #a3d2ca;
+}
+
+.footer{
+
+	bottom: 0;
+	width: 100%;
+	position: sticky-top;
+}
+
+
+.card{
+
+	margin: 50px 100px;
+	background-color: #4b5d67;
+}
+
+.header{
+
+	text-align: center;
+	height: 300px;
+    padding: 12px;
+    background-image: url(../imagenes/1.jpeg);
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.socials{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.socials li{
+   	display: inline-block;
+    margin: 5px;
+}
+
+.a{
+    text-decoration: none;
+    color: #fff;
+}

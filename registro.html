@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/957b34005e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="CssPropio/registro.css">
+
+    <title>Regístrate</title>
+
+    <link rel="icon" href="CssPropio/imagenes/silaa.ico">
+
+  </head>
+
+  <body>
+
+
+<!-- INICIO NAVBAR-->
+    <div id="app">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.html">
+        <img src="imagenes/sila.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">Sila</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+          <div class="navbar-nav mr-auto"></div>
+
+          <div class="d-flex flex-row ">
+            <a class="nav-link" href="inicio.html"><button type="button" class="btn btn-outline-light" >Identifícate</button></a>
+            <a class="nav-link" href="registro.html"><button type="button" class="btn btn-outline-light">Regístrate</button></a>    
+          </div>
+
+        </div>
+
+      </nav>
+
+
+    <!-- FIN NAVBAR-->
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    <!--FORMULARIO DE REGISTRO-->
+
+      <section class="container">
+          
+        <h3 class="display-5 d-flex justify-content-center align-items-center">Registrarse en Sila</h3>
+
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-6">
+   
+
+              <div class="form-group">
+                <input type="text" placeholder="Nombre" class="form-control" v-model="nombre" v-on:keyup="validarNombre">
+                {{errorNombre}}
+                
+              </div>
+
+              <div class="form-group">
+                <input type="text" placeholder="Apellido" class="form-control" v-model="apellido" v-on:keyup="validarApellido">
+                {{errorApellido}}
+              </div>
+
+              <div class="form-group">
+                <input type="number" placeholder="Edad" class="form-control" v-model="edad" v-on:keyup="validarEdad">
+                {{errorEdad}}
+              </div>
+ 
+
+              <div class="form-group">
+                <input type="email" placeholder="Dirección de correo electrónico" class="form-control" v-model="correo" v-on:keyup="validarCorreo">
+                {{errorCorreo}}
+              </div>
+
+              <div class="form-group">
+                <input type="password" placeholder="Contraseña" class="form-control" v-model="contra" v-on:keyup="validarContra">
+                {{errorContra}}
+              </div>
+
+              <div class="form-group d-flex justify-content-center ">
+                <button class="btn btn-dark" @click="validarReg">Registrarse</button>
+              </div>
+  
+          </div>
+        </div>
+
+        </section>
+
+    <!--FORMULARIO DE REGISTRO-->
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+  <!--INICIO FOOTER-->
+
+<footer class="footer">
+            
+    <nav class="navbar navbar-toggler navbar-dark bg-dark navbar-expand-lg navbar-light bg-light sticky-top">
+     
+      
+      
+      
+      
+        <div class="navbar-nav mr-auto">
+          <a class="nav-link" href="perfil.html"><button type="" class="btn btn-outline-dark " style="color: white">Todos los derechos reservados. &copy; </button></a>
+
+
+         
+          
+          
+        </div>
+        <div class="d-flex flex-row ">
+
+          <button type="" class="btn btn-outline-dark" style="color: white">Síguenos en nuestras redes sociales </button>
+          <a href="https://www.facebook.com" class="btn btn-outline-light mr-2"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com" class="btn btn-outline-light"><i class="fab fa-instagram"></i></a>
+                
+        </div>
+      </div>
+    </nav>
+          
+  </footer>
+  <!--FIN FOOTER-->
+      
+
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="/types/registro.js"></script>
+  </body>
+</html>
